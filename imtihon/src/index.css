@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  margin: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  margin: 5px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.dark {
+  background-color: #111;
+  color: white;
+  min-height: 100vh;
+}
+
+.light {
+  background-color: #fff;
+  color: black;
+  min-height: 100vh;
+}
