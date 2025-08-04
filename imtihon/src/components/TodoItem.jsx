@@ -15,9 +15,9 @@ function TodoItem({ todo, dispatch, setEditingTodo }) {
         <button onClick={toggleComplete}>
           {todo.isCompleted ? "✅" : "⬜️"}
         </button>
-        <button onClick={() => setEditingTodo(todo)}>✏️</button>
+        <button onClick={() => setEditingTodo(todo)}>edit</button>
         <button onClick={() => dispatch({ type: "DELETE_TODO", payload: todo.id })}>
-          🗑️
+          delete
         </button>
       </li>
     );

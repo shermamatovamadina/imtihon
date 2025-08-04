@@ -25,8 +25,8 @@ function AppContent() {
 
   return (
     <div className="container">
-      <h1>📋 ToDo List</h1>
-      <button onClick={toggleTheme}>Rejimni o‘zgartirish</button>
+      <h1> ToDo List</h1>
+      <button onClick={toggleTheme}>Rejimni o`zgartirish</button>
       <TodoForm
         dispatch={dispatch}
         editingTodo={editingTodo}

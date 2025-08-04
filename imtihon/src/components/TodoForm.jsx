@@ -54,7 +54,7 @@ function TodoForm({ dispatch, editingTodo, setEditingTodo }) {
         value={description}
         onChange={(e) => setDescription(e.target.value)}
       />
-      <button type="submit">{editingTodo ? "Yangilash" : "Qo‘shish"}</button>
+      <button type="submit">{editingTodo ? "Yangilash" : "Qo`shish"}</button>
     </form>
   );
 }
